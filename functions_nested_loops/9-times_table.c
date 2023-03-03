@@ -25,14 +25,14 @@ for (i = 0; i <= 9; i++)
 			_putchar(',');
 			_putchar(' ');
 			_putchar(' ');
-		        _putchar(r + '0');
+			_putchar(r + '0');
 		}
 		else
 		{
 			_putchar(',');
 			_putchar(' ');
 			_putchar(r / 10 + '0');
-                        _putchar(r % 10 + '0');
+			_putchar(r % 10 + '0');
 		}
 	}
 	_putchar('\n');
