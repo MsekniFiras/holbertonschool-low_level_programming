@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*print_most_numbers - prints numbers from 0 to 9 except 2 & 4 followed by a newline.
+*print_most_numbers - prints numbers: 0 - 9 w/ 2 & 4 followed by a newline.
 */
 void print_most_numbers(void)
 {
