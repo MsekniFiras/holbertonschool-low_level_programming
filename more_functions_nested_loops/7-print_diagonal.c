@@ -10,7 +10,7 @@ if (n > 0)
 {
 for (l = 0; l < n; l++)
 {
-for (i= 1; i <= l; i++)
+for (i = 1; i <= l; i++)
 {
 _putchar(' ');
 }
