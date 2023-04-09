@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
 * main - prints multiplication of two argument numbers.
 * @argc: number of arguments.
@@ -8,11 +7,8 @@
 */
 int main(int argc, char *argv[])
 {
-if (argc != 3)
-{
-printf("Error\n");
-return (1);
-}
-printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
+int i;
+for (i = 0; i < argc; i++)
+printf("argv[%2d]: %s\n", i, argv[i]);
 return (0);
 }
