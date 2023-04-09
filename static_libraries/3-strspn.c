@@ -1,4 +1,3 @@
-
 #include "main.h"
 /**
 * _strspn - gets the length of a prefix substring.
@@ -26,5 +25,3 @@ s++;
 }
 return (bytes);
 }
-Footer
-© 2023 GitHub, Inc.
