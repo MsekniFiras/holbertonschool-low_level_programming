@@ -10,6 +10,6 @@ unsigned long int hash;
 int i;
 hash = 5381;
 while ((i = *str++))
-hash = ((hash << 5) + hash) + i;
+hash = ((hash << 5) + hash) +i;
 return (hash);
 }
