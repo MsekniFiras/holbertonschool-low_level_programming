@@ -56,7 +56,7 @@ struct shash_node_s *snext;
 * @size: size of array.
 * @array: array.
 * @shead: pointer to 1st element of sorted list.
-* @stail; pointer to last element of sorted list.
+* @stail: pointer to last element of sorted list.
 */
 typedef struct shash_table_s
 {
