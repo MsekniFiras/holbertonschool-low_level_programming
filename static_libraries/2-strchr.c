@@ -1,16 +1,20 @@
 #include "main.h"
+#include <stddef.h>
+
 /**
-*_strlen - returns length of a string.
-*@s: input
-*Return: Always 0.
-*/
-int _strlen(char *s)
+ * _strchr - Entry point
+ * @s: input
+ * @c: input
+ * Return: Always 0 (Success)
+ */
+char *_strchr(char *s, char c)
 {
-int i = 0;
-while (*s != '\0')
-{
-s++;
-i++;
-}
-return (i);
+	int i = 0;
+
+	for (; s[i] >= '\0'; i++)
+	{
+		if (s[i] == c)
+			return (&s[i]);
+	}
+	return (0);
 }
